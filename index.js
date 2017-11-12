@@ -24,3 +24,13 @@ function prependKitten (name) {
   kittens = [name, ...kittens]
   return kittens
 }
+function removeLastKitten (name) {
+  var kittens = ['Milo', 'Otis', 'Garfield']
+  kittens = kittens.splice(1)
+  return kittens
+}
+function removeFirstKitten (name) {
+  var kittens = ['Milo', 'Otis', 'Garfield']
+  kittens = kittens.splice(kittens.length - 1)
+  return kittens
+}
