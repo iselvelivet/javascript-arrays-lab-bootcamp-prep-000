@@ -1,7 +1,4 @@
 const app = "I don't do much."
-function Arrays () {
-  var kittens = ['Milo', 'Otis', 'Garfield']
-}
 function kittens () {
   var kittens = ['Milo', 'Otis', 'Garfield']
 }
@@ -16,11 +13,4 @@ function destructivelyRemoveLastKitten (name) {
 }
 function destructivelyRemoveFirstKitten (name) {
   kittens.shift(name)
-}
-function appendKitten (name) {
-  var kittens = [name, ...kittens]
-}
-function prependKitten (name) {
-  var kittens = [name, ...kittens]
-  return kittens
 }
