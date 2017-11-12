@@ -31,7 +31,6 @@ kittens = kittens.splice(kittens.length - 1)
 }
 function removeFirstKitten (name) {
   var kittens = ['Milo', 'Otis', 'Garfield']
-
     kittens = kittens.splice(1)
   return kittens
 }
